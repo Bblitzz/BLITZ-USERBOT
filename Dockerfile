@@ -1,10 +1,10 @@
 # Using Python Slim-Buster
-FROM xluxz/geezproject:buster
-# RAM-UBOT
-# Geez-UserBot
+FROM xluxz/Bblitzzproject:buster
+# BLITZ-USERBOT
+# Bblitzz Project
 #yaudah iya
 
-RUN git clone -b RAM-UBOT https://github.com/ramadhani892/RAM-UBOT /root/userbot
+RUN git clone -b RAM-UBOT https://github.com/Bblitzz/BLITZ-USERBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
